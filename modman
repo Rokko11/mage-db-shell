@@ -1,0 +1,2 @@
+capistrano/config.rb ../tools/capistrano/config/
+shell/database.php shell/database.php
