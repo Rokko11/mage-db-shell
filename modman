@@ -1,2 +1,2 @@
-capistrano/config.rb ../tools/capistrano/config/
+capistrano/config.rb ../tools/capistrano/config/config.rb
 shell/database.php shell/database.php
