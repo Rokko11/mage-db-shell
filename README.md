@@ -12,7 +12,7 @@ This modules offers the possibility to dump the database remotely via capistrano
 
 Install it via modman. If your capistrano or magento is located somewhere else, just edit modman-file.
 
-## Use Case
+## Use without capistrano
  
 You can't do much with it. Use
 
@@ -28,4 +28,16 @@ for a list of all available commands. At the moment, the output would be like th
   overwrite                     Overwrites database with dump
   deleteurl                     Deletes the base_url-Entry from core_config_data
   help                          This help
+```
+
+
+## Use with capistrano
+
+You can do this remotely. You have to add config/custom in your Capfile!!! Just use
+
+```
+cap db:dump
+cap db:overwrite
+cap db:export
+cap db:deleteurl
 ```
